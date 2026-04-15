@@ -132,7 +132,7 @@
           <div class="mini-card">
             <h3>h1 - h6</h3>
             <p>  Los títulos en HTML son etiquetas que se utilizan para definir encabezados o
-    secciones dentro de una página web. Van desde &lt;h1&gt; hasta &lt;h6&gt;, donde
+    secciones dentro de una página web. Van desde <strong>&lt;h1&gt;</strong> hasta <strong>&lt;h6&gt;</strong>strong>, donde
     &lt;h1&gt; es el más importante y &lt;h6&gt; el de menor importancia.</p>
           </div>
           <div class="mini-card">
@@ -179,32 +179,57 @@ alt → texto alternativo (importante para accesibilidad)</p>
 
     <section id="semantica" class="seccion">
       <article class="card">
-        <h2>HTML5 semántico</h2>
+        <h2>HTML5 semántico
+
+( etiquetas que le dan significado al contenido de una página web.)</h2>
         <img src="img/semantica.png" alt="HTML5 semántico">
         <div class="grid">
           <div class="mini-card">
             <h3>header</h3>
-            <p>Espacio para que el alumno describa el encabezado.</p>
+            <p>
+
+ <p>Es la parte superior de la página.</p>
+
+<p>Se usa para:</p>
+
+<p>título</p>
+<p>logo</p>
+<p>información inicial.</p>
           </div>
           <div class="mini-card">
             <h3>nav</h3>
-            <p>Espacio para que el alumno describa la navegación.</p>
+            <p>Contiene los menús o enlaces principales.</p>
+               <p>Es donde el usuario se mueve por la página.
           </div>
           <div class="mini-card">
             <h3>main</h3>
-            <p>Espacio para que el alumno describa el contenido principal.</p>
+            <p>Aquí va lo más importante de la página.</p>
+             <p>Solo debe haber un <main> por página.</p>
           </div>
           <div class="mini-card">
             <h3>section</h3>
-            <p>Espacio para que el alumno describa las secciones.</p>
+            <p>Divide el contenido en bloques o partes.</p>
+               <p>Sirve para organizar mejor la información.</p>
           </div>
           <div class="mini-card">
             <h3>article</h3>
-            <p>Espacio para que el alumno describa los artículos.</p>
+            <p>Contenido independiente que puede existir solo.</p>
+
+  <p>Ejemplos:</p>
+
+  <p>noticia</p>
+  <p>blog</p>
+  <p>publicación</p>
           </div>
           <div class="mini-card">
             <h3>footer</h3>
-            <p>Espacio para que el alumno describa el pie de página.</p>
+            <p>Es la parte final de la página.</p>
+
+<p>Se usa para:</p>
+
+<p>derechos de autor</p>
+<p>redes sociales</p>
+<p>contacto</p>
           </div>
         </div>
       </article>
@@ -215,8 +240,47 @@ alt → texto alternativo (importante para accesibilidad)</p>
         <h2>Formularios en HTML5</h2>
         <img src="img/formularios.png" alt="Formularios HTML5">
         <p>
-          Aquí el alumno debe investigar y explicar qué son los formularios y cuáles son algunas etiquetas y elementos como form, label, input, textarea, select y button.
+         Un formulario es una sección de una página web que permite al usuario ingresar datos.   </p>
+
+ <p> Ejemplos:
+
+
+ <p>iniciar sesión </p>
+ <p>registrarse </p>
+ <p>enviar un mensaje </p>
+ <p>responder encuestas 
         </p>
+        Etiquetas principales de formularios
+ <strong> <p>form  </p> </strong>
+
+ <p>Es la etiqueta principal que contiene todo el formulario. </p>
+       <p> Dentro de ella van todos los elementos como inputs, botones, etc.</p>
+       <strong> <p>  label </p> </strong>
+
+<p> Sirve para poner un nombre o descripción a un campo.</p>
+
+        <p>Ayuda a que el usuario entienda qué debe escribir.</p>
+           <strong> <p>  input      </strong>  </p>
+
+<p> Es el campo donde el usuario escribe o selecciona datos. </p>
+        Tipos comunes:
+
+<p>text → texto</p>
+<p>email → correo</p>
+<p>password → contraseña</p>
+<p>number → números</p>
+         <strong> <p>  textarea   </strong>  </p>
+<p>Ejemplo: comentarios o mensajes. </p>
+
+            <strong> <p>  select </strong>  </p> 
+
+ <p>Permite elegir una opción de una lista.</p>
+
+<p> Se usa para escribir textos largos.</p>
+        <p> button</p>
+
+   <p>Es un botón para enviar o ejecutar acciones.</p>
+       <p> Normalmente se usa para enviar el formulario.</p>
         <form class="demo-form">
           <label for="nombre">Nombre</label>
           <input type="text" id="nombre" placeholder="Ejemplo">
